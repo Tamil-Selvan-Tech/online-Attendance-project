@@ -10,19 +10,19 @@ const List = () => {
   }, []);
 
   const students = [
-    { name: "Suman", regNo: "22SCT1546" },
-    { name: "Tamil Selvan", regNo: "22SCT1547" },
-    { name: "Dinesh Kumar", regNo: "22SCT1516" },
-    { name: "Logapriyan", regNo: "22SCT1527" },
-    { name: "Manohar", regNo: "22SCT1530" },
-    { name: "Nandha Kumar", regNo: "22SCT1525" },
-    { name: "Pradeep", regNo: "22SCT1522" },
-    { name: "Monish", regNo: "22SCT1525" },
-    { name: "Cibichandran", regNo: "22SCT1518" },
-    { name: "Palanibharathi", regNo: "22SCT1522" }
+    { name: "student1", regNo: "12345" },
+    { name: "student2", regNo: "2345" },
+    { name: "student3" , regNo: "3456" },
+    { name: "student4", regNo: "4567" },
+    { name: "student5", regNo: "1234" },
+    { name: "student6", regNo: "1255" },
+    { name: "student7", regNo: "272345" },
+    { name: "student8", regNo: "6345825" },
+    { name: "student9", regNo: "264518" },
+    { name: "student10", regNo: "75322" }
   ];
 
-  const totalRows = 35;
+  const totalRows = 10;
 
   const handleSubmit = (e) => {
     e.preventDefault();
